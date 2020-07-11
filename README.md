@@ -33,6 +33,29 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
    </dependency>
    ```
 
+   或者
+
+   ```xml
+   <dependency>
+       <groupId>org.junit.platform</groupId>
+       <artifactId>junit-platform-launcher</artifactId>
+       <version>1.6.2</version>
+       <scope>test</scope>
+   </dependency>
+   <dependency>
+       <groupId>org.junit.jupiter</groupId>
+       <artifactId>junit-jupiter-engine</artifactId>
+       <version>5.6.2</version>
+       <scope>test</scope>
+   </dependency>
+   <dependency>
+       <groupId>org.junit.vintage</groupId>
+       <artifactId>junit-vintage-engine</artifactId>
+       <version>5.6.2</version>
+       <scope>test</scope>
+   </dependency>
+   ```
+
 2. 创建测试类
 
    参考`MyFirstJUnitJupiterTests.java`
@@ -40,3 +63,6 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
 3. 常用注解
 
    参考`MyFirstJUnitJupiterTests.java`注释
+
+## 依赖关系图
+![](component-diagram.svg)
