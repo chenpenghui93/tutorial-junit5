@@ -64,5 +64,5 @@ JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
 
    参考`MyFirstJUnitJupiterTests.java`注释
 
-## 依赖关系图
+## 依赖关系
 ![](component-diagram.svg)
