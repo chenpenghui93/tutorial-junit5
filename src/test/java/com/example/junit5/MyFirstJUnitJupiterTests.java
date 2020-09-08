@@ -17,8 +17,10 @@ import static org.mockito.Mockito.when;
 public class MyFirstJUnitJupiterTests {
 
     //    @Autowired
+
     //用于添加when条件
 //    @MockBean
+
     //介于@Autowired与@MockBean之间，有条件执行条件，无条件则正常执行方法
     @SpyBean
     private Svc svc;
